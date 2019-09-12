@@ -1,0 +1,19 @@
+{
+  "name": "rgb-terminal",
+  "version": "1.0.0",
+  "description": "4 Jack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkmaibach/rgb-terminal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkmaibach/rgb-terminal/issues"
+  },
+  "homepage": "https://github.com/bkmaibach/rgb-terminal#readme"
+}
