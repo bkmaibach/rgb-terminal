@@ -1,4 +1,5 @@
 const fs = require('fs').promises;
+const path = require('path');
 
 const colors = [
     '#9400d3',
@@ -15,7 +16,8 @@ const colors = [
     '#4b0082'
 ];
 // let baseDir = __dirname;
-let baseDir = "C:\Users\jack\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState";
+let baseDir = path.join(__dirname, "..", "Users", "jack","AppData","Local","Packages","Microsoft.WindowsTerminal_8wekyb3d8bbwe","LocalState");
+// let baseDir = "C:\Users\jack\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState";
 
 let index = 0;
 loop = function () {
